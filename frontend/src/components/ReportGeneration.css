@@ -1,0 +1,64 @@
+.report-generation {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.report-generation h1 {
+  color: #2ecc71;
+  text-align: center;
+}
+
+.report-generation p {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.report-generation h2 {
+  color: #333;
+  margin-top: 20px;
+}
+
+.report-generation ol {
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+.report-generation .generate-button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #2ecc71;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.report-generation .generate-button:hover {
+  background-color: #27ae60;
+}
+
+.report-generation .status {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #e0f7fa;
+  border: 1px solid #b2ebf2;
+  border-radius: 4px;
+}
+
+.report-generation .status h3 {
+  margin: 0;
+  color: #00796b;
+}
+
+.report-generation .status p {
+  margin: 5px 0 0;
+  color: #004d40;
+}

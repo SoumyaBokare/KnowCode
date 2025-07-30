@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agricultural Sensor Pricing Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Agricultural Sensor Pricing Calculator</h1>
+    
+    <div class="calculator-section">
+        <form id="calculatorForm">
+            <label for="farmArea">Enter your farm area (in square meters):</label><br>
+            <input type="number" id="farmArea" required min="1" placeholder="e.g., 10000">
+            <button type="button" onclick="calculatePricing()">Calculate Requirements</button>
+        </form>
+    </div>
+
+    <div id="results" style="display: none;">
+        <div class="pricing-cards"></div>
+        <div class="sensor-details">
+            <h2>Required Sensors</h2>
+            <table class="sensor-table">
+                <thead>
+                    <tr>
+                        <th>Sensor Type</th>
+                        <th>Model</th>
+                        <th>Units Required</th>
+                        <th>Cost per Unit</th>
+                        <th>Total Cost</th>
+                    </tr>
+                </thead>
+                <tbody id="sensorDetailsBody"></tbody>
+            </table>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
