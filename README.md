@@ -178,10 +178,6 @@ python app.py
 4. Ensure no sensitive data is committed
 5. Submit a pull request
 
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
 ## Support
 
 For questions or support, please open an issue on GitHub.
